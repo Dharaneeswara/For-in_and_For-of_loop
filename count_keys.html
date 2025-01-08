@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let student={
+            name:"Dharaneeswaran",
+            qualification:"BE-CSE",
+            yearOfPassed:2024,
+            address:{
+                doorNo:"1/30A",
+                street:"Adari main road",
+                post:"Porasakurichi",
+                district:"Kallakurichi",
+                pincode:606203,
+            },
+            roll:"Frontend Developer"
+        }
+        // console.log(student.address.street);
+
+        let counts=0;
+        for(let keys in student){
+            counts++;
+            // console.log(keys.length);
+            // console.log(keys);
+            // console.log(counts);
+        }
+        console.log(counts);
+        
+        
+    </script>
+</body>
+</html>
